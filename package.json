@@ -1,0 +1,50 @@
+{
+  "name": "subschema",
+  "version": "0.5.0",
+  "description": "Backbone Forms like declaritive forms for react",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "karma start",
+    "start": "webpack-dev-server --content-base ./public/",
+    "package": "webpack --config webpack.config.js -p",
+    "karma": "karma start --no-single-run --colors --auto-watch"
+  },
+  "keywords": [
+    "react",
+    "forms",
+    "backbone-forms"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jspears/subschema"
+  },
+  "author": "Justin Spears",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^5.0.0",
+    "expect": "^1.6.0",
+    "express": "^4.12.3",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-cli": "0.0.4",
+    "karma-mocha": "^0.1.10",
+    "karma-sourcemap-loader": "^0.3.4",
+    "karma-webpack": "^1.5.0",
+    "mocha": "^2.2.1",
+    "react": "^0.13.1",
+    "react-bootstrap": "^0.20.0",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.8.0",
+    "css-loader": "^0.9.1",
+    "extract-text-webpack-plugin": "^0.5.0",
+    "less": "^2.4.0",
+    "less-loader": "^2.2.0",
+    "lodash": "^3.6.0",
+    "style-loader": "^0.9.0",
+    "url-loader": "^0.5.5"
+  },
+  "peerDependencies": {
+    "react": "^0.13.1"
+  },
+  "dependencies": {}
+}
