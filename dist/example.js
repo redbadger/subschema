@@ -7,7 +7,7 @@
 		exports["Subschema"] = factory(require("React"));
 	else
 		root["Subschema"] = factory(root["React"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_2__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_17__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -77,17 +77,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	module.exports = __webpack_require__(3);
+	module.exports = __webpack_require__(4);
 
 /***/ },
 /* 1 */,
-/* 2 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
-
-/***/ },
-/* 3 */
+/* 2 */,
+/* 3 */,
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -101,9 +97,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports.loader = __webpack_require__(30);
 	module.exports.Types = __webpack_require__(31);
 	module.exports.ValueManager = __webpack_require__(32);
+	module.exports.React = __webpack_require__(17);
 
 /***/ },
-/* 4 */,
 /* 5 */,
 /* 6 */,
 /* 7 */,
@@ -116,7 +112,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 14 */,
 /* 15 */,
 /* 16 */,
-/* 17 */,
+/* 17 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_17__;
+
+/***/ },
 /* 18 */,
 /* 19 */,
 /* 20 */,
@@ -130,7 +131,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _objectWithoutProperties = function (obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; };
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var NestedMixin = __webpack_require__(26);
 	var loader = __webpack_require__(30);
 	var ValueManager = __webpack_require__(32);
@@ -187,7 +188,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2),
+	var React = __webpack_require__(17),
 	    tu = __webpack_require__(29),
 	    BasicFieldMixin = __webpack_require__(41);
 	var FieldMixin = tu.extend({}, BasicFieldMixin, {
@@ -232,7 +233,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var tu = __webpack_require__(29);
 	var Editor = __webpack_require__(27);
 	var loader = __webpack_require__(30);
@@ -361,7 +362,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var tu = __webpack_require__(29);
 	var EMPTY_ARR = [];
 	var loader = __webpack_require__(30);
@@ -1617,7 +1618,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var AutocompleteItemTemplate = React.createClass({
 	    displayName: 'AutocompleteItemTemplate',
 
@@ -1657,7 +1658,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var Button = React.createClass({
 	    displayName: 'Button',
 
@@ -1697,7 +1698,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	"use strict";
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 
 	var CheckboxTemplate = React.createClass({
 	    displayName: "CheckboxTemplate",
@@ -1724,7 +1725,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	"use strict";
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var CheckboxesGroupTemplate = React.createClass({
 	    displayName: "CheckboxesGroupTemplate",
 
@@ -1757,7 +1758,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var Editor = __webpack_require__(27);
 
 	var CollectionCreateTemplate = React.createClass({
@@ -1814,7 +1815,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var EditorTemplate = React.createClass({
 	    displayName: 'EditorTemplate',
 	    componentWillMount: function componentWillMount() {
@@ -1869,7 +1870,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 
 	var FieldSetTemplate = React.createClass({
 	    displayName: 'FieldSetTemplate',
@@ -1904,7 +1905,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _objectWithoutProperties = function (obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; };
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 
 	var FormTemplate = React.createClass({
 	    displayName: 'FormTemplate',
@@ -1931,7 +1932,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var tpath = __webpack_require__(29).path;
 	//var PropsStateValueMixin = require('../PropsStateValueMixin');
 	var ListItemTemplate = React.createClass({
@@ -2050,7 +2051,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _objectWithoutProperties = function (obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; };
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 
 	var ObjectTemplate = React.createClass({
 	    displayName: 'ObjectTemplate',
@@ -2077,7 +2078,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	"use strict";
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var RadioItemTemplate = React.createClass({
 	    displayName: "RadioItemTemplate",
 
@@ -2111,7 +2112,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _objectWithoutProperties = function (obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; };
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var Form = __webpack_require__(24);
 	var tu = __webpack_require__(29);
 	var NestedMixin = __webpack_require__(26);
@@ -2313,7 +2314,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var tu = __webpack_require__(29);
 	var loader = __webpack_require__(30);
 
@@ -2388,7 +2389,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var tu = __webpack_require__(29);
 	var css = __webpack_require__(94);
 	var loader = __webpack_require__(30);
@@ -2700,7 +2701,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2),
+	var React = __webpack_require__(17),
 	    FieldMixin = __webpack_require__(25),
 	    Constants = __webpack_require__(96);
 
@@ -2734,7 +2735,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var BasicFieldMixin = __webpack_require__(41);
 	var tu = __webpack_require__(29);
 	var loader = __webpack_require__(30);
@@ -2846,7 +2847,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var Editor = __webpack_require__(27);
 	var loader = __webpack_require__(30);
 	var Constants = __webpack_require__(96);
@@ -3025,7 +3026,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2),
+	var React = __webpack_require__(17),
 	    FieldMixin = __webpack_require__(25),
 	    Constants = __webpack_require__(96);
 
@@ -3052,7 +3053,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2),
+	var React = __webpack_require__(17),
 	    FieldMixin = __webpack_require__(25),
 	    Constants = __webpack_require__(96);
 
@@ -3079,7 +3080,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2),
+	var React = __webpack_require__(17),
 	    FieldMixin = __webpack_require__(25),
 	    Constants = __webpack_require__(96);
 
@@ -3106,7 +3107,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var Constants = __webpack_require__(96);
 	var tu = __webpack_require__(29);
 	var CollectionMixin = __webpack_require__(66);
@@ -3243,7 +3244,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var CollectionMixin = __webpack_require__(66);
 	var tu = __webpack_require__(29);
 	var loader = __webpack_require__(30);
@@ -3413,7 +3414,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var NestedMixin = __webpack_require__(26);
 	var loader = __webpack_require__(30);
 	var BasicFieldMixin = __webpack_require__(41);
@@ -3463,7 +3464,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2),
+	var React = __webpack_require__(17),
 	    FieldMixin = __webpack_require__(25),
 	    Constants = __webpack_require__(96);
 
@@ -3492,7 +3493,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var React = __webpack_require__(2);
+	var React = __webpack_require__(17);
 	var tu = __webpack_require__(29);
 	var loader = __webpack_require__(30);
 	var BasicFieldMixin = __webpack_require__(41);
@@ -3600,7 +3601,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2),
+	var React = __webpack_require__(17),
 	    FieldMixin = __webpack_require__(25),
 	    Constants = __webpack_require__(96);
 
@@ -3639,7 +3640,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2),
+	var React = __webpack_require__(17),
 	    FieldMixin = __webpack_require__(25),
 	    Constants = __webpack_require__(96);
 
@@ -3697,7 +3698,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2),
+	var React = __webpack_require__(17),
 	    FieldMixin = __webpack_require__(25),
 	    Constants = __webpack_require__(96);
 
@@ -3725,7 +3726,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var React = __webpack_require__(2),
+	var React = __webpack_require__(17),
 	    FieldMixin = __webpack_require__(25),
 	    Constants = __webpack_require__(96);
 
@@ -4524,7 +4525,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var isError = __webpack_require__(104),
-	    restParam = __webpack_require__(117);
+	    restParam = __webpack_require__(118);
 
 	/**
 	 * Attempts to invoke `func`, returning either the result or the caught error
@@ -4561,7 +4562,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseCopy = __webpack_require__(118),
+	var baseCopy = __webpack_require__(117),
 	    getSymbols = __webpack_require__(116),
 	    isNative = __webpack_require__(111),
 	    keys = __webpack_require__(106);
@@ -5156,6 +5157,35 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/**
+	 * Copies properties of `source` to `object`.
+	 *
+	 * @private
+	 * @param {Object} source The object to copy properties from.
+	 * @param {Array} props The property names to copy.
+	 * @param {Object} [object={}] The object to copy properties to.
+	 * @returns {Object} Returns `object`.
+	 */
+	function baseCopy(source, props, object) {
+	  object || (object = {});
+
+	  var index = -1,
+	      length = props.length;
+
+	  while (++index < length) {
+	    var key = props[index];
+	    object[key] = source[key];
+	  }
+	  return object;
+	}
+
+	module.exports = baseCopy;
+
+
+/***/ },
+/* 118 */
+/***/ function(module, exports, __webpack_require__) {
+
 	/** Used as the `TypeError` message for "Functions" methods. */
 	var FUNC_ERROR_TEXT = 'Expected a function';
 
@@ -5214,35 +5244,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	module.exports = restParam;
-
-
-/***/ },
-/* 118 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copies properties of `source` to `object`.
-	 *
-	 * @private
-	 * @param {Object} source The object to copy properties from.
-	 * @param {Array} props The property names to copy.
-	 * @param {Object} [object={}] The object to copy properties to.
-	 * @returns {Object} Returns `object`.
-	 */
-	function baseCopy(source, props, object) {
-	  object || (object = {});
-
-	  var index = -1,
-	      length = props.length;
-
-	  while (++index < length) {
-	    var key = props[index];
-	    object[key] = source[key];
-	  }
-	  return object;
-	}
-
-	module.exports = baseCopy;
 
 
 /***/ },
@@ -5453,9 +5454,9 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var bindCallback = __webpack_require__(141),
+	var bindCallback = __webpack_require__(140),
 	    isIterateeCall = __webpack_require__(105),
-	    restParam = __webpack_require__(117);
+	    restParam = __webpack_require__(118);
 
 	/**
 	 * Creates a function that assigns properties of source object(s) to a given
@@ -5541,7 +5542,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseFor = __webpack_require__(140),
+	var baseFor = __webpack_require__(141),
 	    keys = __webpack_require__(106);
 
 	/**
@@ -5603,7 +5604,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var baseMatches = __webpack_require__(142),
 	    baseMatchesProperty = __webpack_require__(143),
-	    bindCallback = __webpack_require__(141),
+	    bindCallback = __webpack_require__(140),
 	    identity = __webpack_require__(144),
 	    property = __webpack_require__(145);
 
@@ -5996,29 +5997,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var createBaseFor = __webpack_require__(146);
-
-	/**
-	 * The base implementation of `baseForIn` and `baseForOwn` which iterates
-	 * over `object` properties returned by `keysFunc` invoking `iteratee` for
-	 * each property. Iteratee functions may exit iteration early by explicitly
-	 * returning `false`.
-	 *
-	 * @private
-	 * @param {Object} object The object to iterate over.
-	 * @param {Function} iteratee The function invoked per iteration.
-	 * @param {Function} keysFunc The function to get the keys of `object`.
-	 * @returns {Object} Returns `object`.
-	 */
-	var baseFor = createBaseFor();
-
-	module.exports = baseFor;
-
-
-/***/ },
-/* 141 */
-/***/ function(module, exports, __webpack_require__) {
-
 	var identity = __webpack_require__(144);
 
 	/**
@@ -6058,6 +6036,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	module.exports = bindCallback;
+
+
+/***/ },
+/* 141 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var createBaseFor = __webpack_require__(146);
+
+	/**
+	 * The base implementation of `baseForIn` and `baseForOwn` which iterates
+	 * over `object` properties returned by `keysFunc` invoking `iteratee` for
+	 * each property. Iteratee functions may exit iteration early by explicitly
+	 * returning `false`.
+	 *
+	 * @private
+	 * @param {Object} object The object to iterate over.
+	 * @param {Function} iteratee The function invoked per iteration.
+	 * @param {Function} keysFunc The function to get the keys of `object`.
+	 * @returns {Object} Returns `object`.
+	 */
+	var baseFor = createBaseFor();
+
+	module.exports = baseFor;
 
 
 /***/ },
