@@ -8702,7 +8702,7 @@
 	                action: b,
 	                label: b,
 	                handler: handler
-	            } : _.extend({}, b, { handler: handler });
+	            } : tu.extend({}, b, { handler: handler });
 	            if (_this.props.buttonClass) {
 	                btn.buttonClass = (btn.buttonClass || '') + ' ' + _this.props.buttonClass;
 	            }
