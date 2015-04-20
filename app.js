@@ -9839,7 +9839,7 @@
 	                return React.createElement(
 	                    RadioItemTemplate,
 	                    _extends({}, option, { key: option.path }),
-	                    React.createElement('input', _extends({ id: fp, type: 'radio',
+	                    React.createElement('input', _extends({ id: options.path, type: 'radio',
 	                        name: name }, option, { value: option.val }))
 	                );
 	            }, this)
