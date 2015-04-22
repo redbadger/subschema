@@ -7,4 +7,6 @@ cp ${FILE}.js.map ${BASE}.${HASH}.js.map && \
 sed "s,\(src=\"\).*\(\.js\"\),\1${BASE}\.${HASH}\2,"<index.html.tmpl>index.html && \
 git add ${BASE}.${HASH}.js* && \
 git commit -a -m "Updated hash ${HASH}" && \
-echo "push $HASH now"
+git push origin gh-pages && \
+echo "gh-pages now running $HASH " && \
+echo "http://jspears.github.io/subschema"
