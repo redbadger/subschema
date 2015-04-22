@@ -381,7 +381,7 @@
 	
 	});
 	
-	React.render(React.createElement(App, null), document.getElementsByTagName('body')[0]);
+	React.render(React.createElement(App, null), document.getElementById('content'));
 
 /***/ },
 /* 1 */
@@ -28809,4 +28809,4 @@
 
 /***/ }
 /******/ ]);
-//# sourceMappingURL=app.87e803107128e301276cd87bf6d6226a.js.map
+//# sourceMappingURL=app.a900482fc8ee792becf63a8f52305b59.js.map

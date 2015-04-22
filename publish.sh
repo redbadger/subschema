@@ -10,9 +10,8 @@ npm run webpack && \
 cd $OPWD && \
 cp ${FILE}.js.map ${BASE}.${HASH}.js.map && \
 sed "s,\(src=\"\).*\(\.js\"\),\1${BASE}\.${HASH}\2,"<$DIR/public/index.html>index.html && \
-sed "s,\(\/\/# sourceMappingURL=\).*\(.map.*\),\1${BASE}.${HASH}.js\2,"<${FILE}.js>${BASE}.${HASH}.js && \
-	
-git add ${BASE}.${HASH}.js* && \
+sed "s,\(\/\/# sourceMappingURL=\).*\(.map.*\),\1${BASE}.${HASH}.js\2,"<${FILE}.js>${BASE}.${HASH}.js && \	
+git add ${BASE}.${HASH}.{js,js.map} && \	
 git commit -a -m "Updated hash ${HASH}" && \
 git push origin gh-pages && \
 echo "gh-pages now running $HASH " && \
