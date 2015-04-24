@@ -4,9 +4,10 @@ FILE=${1:-../subschema/.build/app}
 HASH=$(md5 -q ${FILE}.js)
 BASE=$(basename $FILE)
 OPWD=$PWD
+
 rm -f ./${BASE}.*.{js,js.map}
 cd $DIR && \
-npm run webpack && \
+NODE_ENV=production npm run webpack && \
 cd $OPWD && \
 cp ${FILE}.js.map ${BASE}.${HASH}.js.map && \
 sed "s,\(src=\"\).*\(\.js\"\),\1${BASE}\.${HASH}\2,"<$DIR/public/index.html>index.html && \
