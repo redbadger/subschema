@@ -1,0 +1,21 @@
+module.exports = {
+  Autocomplete: require('./Autocomplete.jsx'),
+  Checkbox: require('./Checkbox.jsx'),
+  Checkboxes: require('./Checkboxes.jsx'),
+  CollectionMixin: require('./CollectionMixin.jsx'),
+  CreateItemMixin: require('./CreateItemMixin.js'),
+  Date: require('./Date.jsx'),
+  DateTime: require('./DateTime.jsx'),
+  Hidden: require('./Hidden.jsx'),
+  LazyType: require('./LazyType.jsx'),
+  List: require('./List.jsx'),
+  Mixed: require('./Mixed.jsx'),
+  Number: require('./Number.jsx'),
+  Object: require('./Object.jsx'),
+  Password: require('./Password.jsx'),
+  Radio: require('./Radio.jsx'),
+  Restricted: require('./Restricted.jsx'),
+  Select: require('./Select.jsx'),
+  Text: require('./Text.jsx'),
+  TextArea: require('./TextArea.jsx')
+}
