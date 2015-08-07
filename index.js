@@ -1,1 +1,1 @@
-module.exports = require('./src/index.js');
+module.exports = require('./es5/index.js');
