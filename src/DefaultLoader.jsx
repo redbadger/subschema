@@ -1,17 +1,12 @@
 var types = require('./types');
+var templates = require('./templates');
 
 module.exports = {
     loadTemplate (template) {
-        return require.context("./templates", true, /^\.\/.*\.js(x)?/)('./' + template + '.jsx');
+        return templates[template];
     },
     listTemplates(){
-
-        return require.context("./templates", true, /^\.\/.*Template\.js(x)?/).keys().map(function (k) {
-            return {
-                name: k.replace(/.*\/(.*)\.js(x?)/, '$1'),
-                path: k
-            }
-        });
+        return Object.keys(templates);
     },
     loadType (type) {
         return types[type];
