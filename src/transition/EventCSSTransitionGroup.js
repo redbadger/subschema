@@ -20,7 +20,7 @@ var ReactTransitionGroup = React.createFactory(
     require("react/lib/ReactTransitionGroup")
 );
 var EventCSSTransitionGroupChild = React.createFactory(
-    require("./EventCSSTransitionGroupChild.jsx")
+    require("./EventCSSTransitionGroupChild.js")
 );
 
 var EventCSSTransitionGroup = React.createClass({

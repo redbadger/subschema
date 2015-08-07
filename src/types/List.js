@@ -1,7 +1,7 @@
 var React = require('../react');
 var Constants = require('../Constants');
 var tu = require('../tutils');
-var CollectionMixin = require('./CollectionMixin.jsx');
+var CollectionMixin = require('./CollectionMixin.js');
 var css = require('../css');
 var ListInput = React.createClass({
     mixins: [CollectionMixin],

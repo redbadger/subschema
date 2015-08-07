@@ -3,10 +3,10 @@ var React = require('react');
 var { Route,DefaultRoute } = Router;
 require('./sample.less');
 
-var SampleItem = require('./SampleItem.jsx');
-var Index = require('./Index.jsx');
-var App = require('./Sample.jsx');
-var Setup = require('./Setup.jsx');
+var SampleItem = require('./SampleItem.js');
+var Index = require('./Index.js');
+var App = require('./Sample.js');
+var Setup = require('./Setup.js');
 
 var routes = (
     <Route handler={App}>

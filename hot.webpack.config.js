@@ -12,7 +12,7 @@ module.exports = {
     entry: [
         'webpack-dev-server/client?http://localhost:' + 8084,
         'webpack/hot/only-dev-server',
-        path.join(__dirname, 'public/app.jsx')
+        path.join(__dirname, 'public/app.js')
     ],
 
     devServer: {
@@ -75,7 +75,7 @@ module.exports = {
 
     resolve: {
         alias: {
-            'subschema':path.join( __dirname, 'src/index.jsx'),
+            'subschema':path.join( __dirname, 'src/index.js'),
             'react': path.join(__dirname, '/node_modules/react')
         }
     },

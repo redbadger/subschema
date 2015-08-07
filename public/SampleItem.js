@@ -1,9 +1,9 @@
 var React = require('react');
-var SampleMgr = require('./SampleMgr.jsx');
+var SampleMgr = require('./SampleMgr.js');
 var Subschema = require('subschema')
 var Form = Subschema.Form
 var ValueManager = Subschema.ValueManager;
-var Example = require('./SampleExample.jsx')
+var Example = require('./SampleExample.js')
 
 var SampleItem = React.createClass({
 

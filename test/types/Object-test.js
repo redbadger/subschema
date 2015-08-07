@@ -4,7 +4,7 @@ var expect = require('expect');
 var Subschema = require('subschema')
 var Form = Subschema.Form;
 var loader = Subschema.loader;
-var sample = require('../../public/samples/Loader.jsx');
+var sample = require('../../public/samples/Loader.js');
 
 describe('Object', function () {
 

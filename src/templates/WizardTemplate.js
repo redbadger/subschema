@@ -4,9 +4,9 @@ var Form = require('../form');
 var tu = require('../tutils');
 var NestedMixin = require('../NestedMixin');
 // var css = require('../styles/wizard.less');
-var ButtonsTemplate = require('./ButtonsTemplate.jsx');
-//var TimeoutTransitionGroup = require('../transition/TimeoutTransitionGroup.jsx');
-var EventCSSTransitionGroup = require('../transition/EventCSSTransitionGroup.jsx')
+var ButtonsTemplate = require('./ButtonsTemplate.js');
+//var TimeoutTransitionGroup = require('../transition/TimeoutTransitionGroup.js');
+var EventCSSTransitionGroup = require('../transition/EventCSSTransitionGroup.js')
 var CSSCore = require("react/lib/CSSCore");
 var LoaderMixin = require('../LoaderMixin');
 

@@ -2,7 +2,7 @@ var React = require('react/addons');
 var TestUtils = require('react/lib/ReactTestUtils');
 var expect = require('expect');
 var Simulate = React.addons.TestUtils.Simulate;
-var Radio = require('../../src/types/Radio.jsx');
+var Radio = require('../../src/types/Radio.js');
 var ValueManager = require('../../src/ValueManager');
 describe('Radio', function () {
     this.timeout(30000);

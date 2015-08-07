@@ -2,7 +2,7 @@ var React = require('react/addons');
 var TestUtils = require('react/lib/ReactTestUtils');
 var expect = require('expect');
 var Simulate = React.addons.TestUtils.Simulate;
-var Select = require('../../src/types/Select.jsx');
+var Select = require('../../src/types/Select.js');
 var ValueManager = require('../../src/ValueManager');
 describe('Select', function () {
     this.timeout(30000);

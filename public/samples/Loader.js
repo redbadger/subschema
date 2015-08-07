@@ -27,6 +27,6 @@ module.exports = {
     errors: {
         'primary.address': [{message: 'No Such Place'}]
     },
-    setup: require('./Loader-setup.jsx'),
-    setupTxt:require('!!raw!../sample-loader!./Loader-setup.jsx')
+    setup: require('./Loader-setup.js'),
+    setupTxt:require('!!raw!../sample-loader!./Loader-setup.js')
 }

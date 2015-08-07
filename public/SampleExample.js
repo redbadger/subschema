@@ -1,5 +1,5 @@
 var React = require('react');
-var Highlight = require('./Highlight.jsx');
+var Highlight = require('./Highlight.js');
 var Example = React.createClass({
     getInitialState(){
         return {data: this.props.valueManager.getValue(), errors: this.props.valueManager.getErrors()};

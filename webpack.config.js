@@ -9,7 +9,7 @@ module.exports = {
 
     devtool: 'source-map',
     entry: {
-        subschema: './src/index.jsx'
+        subschema: './src/index.js'
     },
     devServer: {
         contentBase: path.join(__dirname, ".build"),

@@ -9,7 +9,7 @@ module.exports = {
 
     devtool: 'source-map',
     entry: {
-        app: './public/app.jsx'
+        app: './public/app.js'
     },
 	output:{
         path: path.join(__dirname, '../subschema-gh-pages'),

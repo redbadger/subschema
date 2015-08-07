@@ -46,7 +46,7 @@ module.exports = function (config) {
 
             resolve: {
                 alias: {
-                    'subschema': path.join(__dirname, 'src/index.jsx')
+                    'subschema': path.join(__dirname, 'src/index.js')
 
                 }
             },

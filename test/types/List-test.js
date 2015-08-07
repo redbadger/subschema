@@ -4,10 +4,10 @@ describe('List', function () {
     var expect = require('expect');
     var Form = require('subschema').Form;
     var Simulate = React.addons.TestUtils.Simulate;
-    var Buttons = require('../../src/templates/ButtonsTemplate.jsx');
-    var Button = require('../../src/templates/ButtonTemplate.jsx');
-    var ListTemplate = require('../../src/templates/ListItemTemplate.jsx');
-    var CreateTemplate = require('../../src/templates/CollectionCreateTemplate.jsx');
+    var Buttons = require('../../src/templates/ButtonsTemplate.js');
+    var Button = require('../../src/templates/ButtonTemplate.js');
+    var ListTemplate = require('../../src/templates/ListItemTemplate.js');
+    var CreateTemplate = require('../../src/templates/CollectionCreateTemplate.js');
     this.timeout(50000);
     function into(node, attach) {
         return attach ? React.render(node, document.getElementsByTagName('body')[0]) : TestUtils.renderIntoDocument(node);
@@ -224,7 +224,7 @@ describe('List', function () {
         edit(root, 0);
     });
     it('should render edit a value with an error', function () {
-        var EditorTemplate = require('../../src/templates/EditorTemplate.jsx');
+        var EditorTemplate = require('../../src/templates/EditorTemplate.js');
         var schema = {
             schema: {
                 tasks: {

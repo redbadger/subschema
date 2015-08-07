@@ -2,7 +2,7 @@ var React = require('react/addons');
 var TestUtils = require('react/lib/ReactTestUtils');
 var expect = require('expect');
 var Simulate = React.addons.TestUtils.Simulate;
-var Restricted = require('../../src/types/Restricted.jsx');
+var Restricted = require('../../src/types/Restricted.js');
 describe('Checkbox', function () {
     this.timeout(30000);
     var Form = require('subschema').Form;

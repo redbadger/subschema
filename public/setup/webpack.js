@@ -1,5 +1,5 @@
 var React = require('react');
-var Highlight = require('../Highlight.jsx');
+var Highlight = require('../Highlight.js');
 var WebpackSetup = React.createClass({
     render(){
         return (<div>
@@ -59,7 +59,7 @@ var WebpackSetup = React.createClass({
                 </div>
                 <div className="panel">
                     <div className="panel-heading">
-                        <h3>Setuping up app.jsx</h3>
+                        <h3>Setuping up app.js</h3>
                     </div>
                     <div className="panel-body">
                         <p>In this doc your html belongs in ./public/index.html</p>

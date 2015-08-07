@@ -1,4 +1,4 @@
-var Highlight = require('react-highlight/optimized.jsx');
+var Highlight = require('react-highlight/optimized.js');
 var React = require('react');
 var HighlightExt = React.createClass({
     render(){

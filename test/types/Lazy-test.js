@@ -3,7 +3,7 @@ var TestUtils = require('react/lib/ReactTestUtils');
 var expect = require('expect');
 var ValueManager = require('../../src/ValueManager');
 var loader = require('../../src/loader.js');
-var Text = require('../../src/types/Text.jsx');
+var Text = require('../../src/types/Text.js');
 var Editor = require('../../src/Editor');
 
 function into(node, debug) {

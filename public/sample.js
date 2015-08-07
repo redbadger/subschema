@@ -1,6 +1,6 @@
 var React = require('react');
-var SampleMgr = require('./SampleMgr.jsx');
-var SampleNav = require('./SampleNav.jsx');
+var SampleMgr = require('./SampleMgr.js');
+var SampleNav = require('./SampleNav.js');
 var Router = require('react-router');
 var { RouteHandler, Link } = Router;
 

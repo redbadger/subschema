@@ -2,7 +2,7 @@ var React = require('react/addons');
 var TestUtils = require('react/lib/ReactTestUtils');
 var expect = require('expect');
 var Simulate = React.addons.TestUtils.Simulate;
-var EditorTemplate = require('../src/templates/EditorTemplate.jsx');
+var EditorTemplate = require('../src/templates/EditorTemplate.js');
 describe('form', function () {
     this.timeout(30000);
     var Form = require('subschema').Form;

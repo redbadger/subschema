@@ -1,6 +1,6 @@
 var React = require('../react');
 var tpath = require('../tutils').path;
-var Buttons = require('../templates/ButtonsTemplate.jsx');
+var Buttons = require('../templates/ButtonsTemplate.js');
 var ListItemTemplate = React.createClass({
     mixins: [require('./ListItemMixin')],
     renderField(){
